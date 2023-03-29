@@ -82,7 +82,7 @@
 }
 
 .navbar {
-    width: 96%;
+    width: 98%;
     /* height: 50px; */
     border: 2px solid orange;
     margin: auto;
@@ -115,7 +115,7 @@
     border-radius: 100%;
 }
 .right-content {
-    width: 96%;
+    width: 98%;
     /* height: 100%; */
     border: 2px solid black;
     margin: auto;
@@ -124,16 +124,15 @@
     background-color: #002447;
     color: white;
     border-radius: 6px;
-    padding: 16px;
+    padding: 30px 16px 16px 16px;
+    /* border: 2px solid purple; */
 }
-.right-fields {
-    display: flex;
-    justify-content: space-around;
-   
-}
+
 .head{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   
+    /* border: 1px solid green; */
+
 }
 .head>h1{
     font-weight: 500;
@@ -145,16 +144,62 @@
 }
 .service-icons{
     margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* border: 1px solid yellow; */
+    
 }
+.icon{
+    width: 8%;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+.icon>i{
+    color: #0073cf;
+    background-color:#ecf5fb ;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px ;
+    
+}
+.service-icons> .icon:nth-child(10)>i{
+    font-size: 14px;
+    padding-top: 12px;
+}
+.icon>p{
+    margin-top: 16px;
+    color: #c3c7ce;
 
+}
+.service-icons> .icon:nth-child(1)>p{
+    color: white;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #0073cf;
+    font-weight: 500;
+    
+
+    
+}
 .services {
     display: flex;
-
     justify-content: space-between;
-
 }
 
 .service {
     width: 20%;
     border: 1px solid green;
+}
+.right-fields {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 16px;
+
 }
