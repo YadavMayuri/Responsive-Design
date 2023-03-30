@@ -1,42 +1,42 @@
+@media screen and (max-width: 1080px) {
+    .left {
+        display: none;
+    }
 
-        @media screen and (max-width: 1080px) {
-            .left {
-                display: none;
-            }
+    .right {
+        width: 100%;
 
-            .right {
-                width: 100%;
+    }
 
-            }
+    .right-first {
+        display: flex;
+        flex-direction: column;
+    }
 
-            .right-first {
-                display: flex;
-                flex-direction: column;
-            }
+    .right-first>div>input {
+        width: 90%;
+        margin-top: 10px;
 
-            .right-first>div>input {
-                width: 90%;
-                margin-top: 10px;
+    }
 
-            }
+    .right-first>div>select {
+        width: 90%;
+        margin-top: 10px;
 
-            .right-first>div>select {
-                width: 90%;
-                margin-top: 10px;
+    }
 
-            }
+    .right-first>div>button {
+        width: 90%;
+        margin-top: 10px;
 
-            .right-first>div>button {
-                width: 90%;
-                margin-top: 10px;
+    }
 
-            }
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
 
-            .services {
-                display: flex;
-                flex-direction: column;
-            }
-            .service{
-                width: 100%;
-            }
-        }
+    .service {
+        width: 100%;
+    }
+}
