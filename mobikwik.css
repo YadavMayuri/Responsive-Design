@@ -225,6 +225,7 @@
     padding: 10px;
     letter-spacing: 0.5px;
     color: gray;
+    border: 1px solid gray;
     
 
 }
@@ -232,6 +233,8 @@
     padding: 10px;
     letter-spacing: 0.5px;
     color: gray;
+    border: 1px solid gray;
+
 
 }
 .fields>button{
@@ -302,7 +305,7 @@
     text-align: center;
     padding: 8px ;
 }
-.service>h5{
+.service-info>h5{
     margin: 10px 0px;
     font-size: 14px;
     color: #0073cf;
@@ -310,7 +313,7 @@
     letter-spacing: 0.4px;
 
 }
-.service>p{
+.service-info>p{
     font-size: 13px;
     letter-spacing: 0.4px;
     color: #808080;
